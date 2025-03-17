@@ -10,6 +10,10 @@ Vi börja tänka på en logga vi fråga ai för lite inspo
 bestämde font: Oxanium https://www.fontsquirrel.com/fonts/oxanium?filter%5Bclassifications%5D%5B0%5D=retro&filter%5Bclassifications%5D%5B1%5D=sans+serif&filter%5Bclassifications%5D%5B2%5D=sans+serif  
 Nils var borta :(   
 vecka 12  
+Jag gjorde en sitemap vi la in allt vi gjort i dokumentet jag skapade också en map med filerna inför arbetet  
+Elias gjorde en wireframe  
+Nils gjorde en call to action  
+Nils var borta halva lektionen så det blev lite mer för mig och elias att göra men det löste sig  
 vecka 13  
 vecka 14  
 vecka 15  
