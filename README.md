@@ -14,6 +14,8 @@ Jag gjorde en sitemap vi la in allt vi gjort i dokumentet jag skapade också en 
 Elias gjorde en wireframe  
 Nils gjorde en call to action  
 Nils var borta halva lektionen så det blev lite mer för mig och elias att göra men det löste sig  
-vecka 13  
+vecka 13   
+Vi dela upp arbetet och började på hemsidan. Jag fokuserade på huvud hemsidan
+
 vecka 14  
 vecka 15  
