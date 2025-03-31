@@ -16,6 +16,6 @@ Nils gjorde en call to action
 Nils var borta halva lektionen så det blev lite mer för mig och elias att göra men det löste sig  
 vecka 13   
 Vi dela upp arbetet och började på hemsidan. Jag fokuserade på huvud hemsidan
-
 vecka 14  
+jag forstatte bygga hemsidan satt 1:30 på att försöka fixa fonter :))
 vecka 15  
