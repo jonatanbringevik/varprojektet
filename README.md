@@ -19,3 +19,4 @@ Vi dela upp arbetet och började på hemsidan. Jag fokuserade på huvud hemsidan
 vecka 14  
 jag forstatte bygga hemsidan satt 1:30 på att försöka fixa fonter :))  
 vecka 15  
+Vi har skrivit mycket kod vi har fixat klart så vi är nära mållinjen nu. Jag har börjat på stads hemsidan och tänkte göra klart det hemma så det känns bra nu.  
