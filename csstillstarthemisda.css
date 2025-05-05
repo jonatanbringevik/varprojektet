@@ -13,7 +13,8 @@ main{
     padding:0.5em;
   }
   .logo{ 
-    height: 6em; width: 6em;
+    height: 7em; width: 7em;
+    margin:1.5em;
   }
   footer{
     padding-left: 2em;}
