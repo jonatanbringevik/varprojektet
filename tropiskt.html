@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Boxar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap (2).css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        .box {
+            flex: 1;
+            background-color: #0ce3ff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid white;
+            position: relative;
+            overflow: hidden;
+        }
+        .box img {
+            width: 100%;
+            height: 150%;
+            object-fit: cover;
+        }
+        .inner-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            position: relative;
+            z-index: 1;
+        }
+        .text-below {
+            margin-top: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            color: #000000;
+        }
+        .title {
+      text-align: center;
+      font-size: 2.5em;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      background-image: url('https://images.pexels.com/photos/63340/pexels-photo-63340.jpeg?cs=srgb&dl=blatt-vatten-hav-paradis-strand-63340.jpg&fm=jpg'); /* Replace with your image file path */
+      background-size: cover; /* or 'contain' */
+      background-position: center;
+      color: white; /* Change text color to stand out */
+      padding: 50px; /* Add space around the text */
+      text-align: center;
+    }
+    h2 {
+    background-image: url('https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Replace with your image file path */
+      background-size: cover; /* or 'contain' */
+      background-position: center;
+        color: rgb(0, 0, 0); /* Change text color to stand out */
+      padding: 50px; /* Add space around the text */
+      text-align: center;
+      margin-top: 30px;
+    }
+    h3 {
+    background-image: url('https://images.pexels.com/photos/878992/pexels-photo-878992.jpeg?auto=compress&cs=tinysrgb&w=1200'); /* Replace with your image file path */
+      background-size: cover; /* or 'contain' */
+      background-position: center;
+        color: rgb(0, 0, 0); /* Change text color to stand out */
+      padding: 50px; /* Add space around the text */
+      text-align: center;
+      margin-top: 30px;
+    }
+ 
+    h4 {
+    background-image: url('https://images.pexels.com/photos/1591375/pexels-photo-1591375.jpeg?auto=compress&cs=tinysrgb&w=1200'); /* Replace with your image file path */
+      background-size: cover; /* or 'contain' */
+      background-position: center;
+        color: rgb(0, 0, 0); /* Change text color to stand out */
+      padding: 50px; /* Add space around the text */
+      text-align: center;
+      margin-top: 30px;
+    }
+    .bi-arrow-up{
+    font-size:1.5em;
+    color:black
+}
+    </style>
+       
+  <h1 class="title"> Varma ställen☀️🏝️</h1>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <img src="https://www.kilroy.se/media/10291/phuket-thailand-james-bond-island.jpg" alt="Populär">
+            <div class="inner-box">
+                <a href="#Populär"> <button type="button" class="btn btn-primary">Populärt</button> </a>
+            </div>
+            <div class="text-below"> Sol, strand och paradiskänsla – Här är årets mest populära resmål!</div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.2NvQMdFZLQsw07rD6S75cwHaFN?rs=1&pid=ImgDetMain" alt="Billig">
+            <div class="inner-box">
+              <a href="#Billigt"> <button type="button" class="btn btn-primary">Billigt</button></a>
+            </div>
+            <div class="text-below">Sol och värme för småpengar – Här är världens billigaste paradis!</div>
+        </div>
+        <div class="box">
+            <img src="https://a.cdn-hotels.com/gdcs/production65/d581/61265170-8f10-11e8-b6b0-0242ac110007.jpg" alt="Vi rekommenderar">
+            <div class="inner-box">
+              <a href="#Rekomenderat"> <button type="button" class="btn btn-primary">Rekomenderat</button></a>
+            </div>
+            <div class="text-below"> Solresor vi rekommenderar – Upptäck din nästa drömdestination!</div>
+        </div>
+       
+       
+ 
+ 
+    </header>
+    <main>
+     
+    <h2 id="Populär">Populärt⭐🥥</h2>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h5 class="card-title">Rhodos</h5>
+                  <p class="card-text">Rhodos är en av Greklands mest älskade semesteröar, och det är lätt att förstå varför. Med över 300 soldagar om året, kristallklart vatten och vackra stränder är ön ett paradis för sol- och badälskare. Här möts historia och nutid – du kan promenera genom den medeltida stadskärnan i Rhodos stad, som är med på UNESCO:s världsarvslista, eller njuta av moderna restauranger och livligt nattliv. Dessutom finns charmiga byar, grönskande landskap och spännande utflyktsmål som Lindos och Fjärilsdalen. Rhodos bjuder på något för alla – oavsett om du söker avkoppling, kultur eller äventyr. </p>
+                  <a href="#" class="btn btn-primary">Boka nu!</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/2554603/pexels-photo-2554603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h5 class="card-title">Phuket</h5>
+                  <p class="card-text">Phuket är Thailands största ö och ett av landets mest populära resmål – med all rätt. Här möts turkosblått hav, vita sandstränder och vajande palmer i en tropisk idyll. Ön bjuder på ett brett utbud av upplevelser: snorkling, båtturer till öar som Phi Phi, pulserande nattliv i Patong, och avkoppling på lugna stränder som Kata och Karon. För den kulturintresserade finns vackra tempel och charmiga gamla stan i Phuket Town. Med vänliga människor, god thailändsk mat och ett varmt klimat året runt är Phuket ett drömresmål för både äventyr och avkoppling.</p>
+                  <a href="#" class="btn btn-primary">Boka nu !</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/1830936/pexels-photo-1830936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h5 class="card-title">Barcelona </h5>
+                  <p class="card-text">Barcelona är en av Europas mest älskade storstäder, där strandliv möter puls och historia. Med sin unika arkitektur av Antoni Gaudí, som den världsberömda Sagrada Família och Park Güell, bjuder staden på en visuell fest för den kulturintresserade. Här finns också ett livligt stadsliv med tapasbarer, shopping, marknader och ett nattliv som aldrig sover. Trots att det är en storstad ligger stranden bara ett stenkast bort, vilket gör det enkelt att kombinera sightseeing med sol och bad. Barcelona har något för alla – oavsett om du vill utforska konst och historia, njuta av god mat eller bara ta in stämningen. </p>
+                  <a href="#" class="btn btn-primary">Boka nu!</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+ 
+</main>
+<h3 id="Billigt">Billigt🤏💰</h3>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.ctfassets.net/wvgaszxkj2ha/2F5JMrKcaLqYtoJg9Bxfjm/4aa76a9ee9964f7b456bd825ec39b265/albania-saranda-port.jpg?w=1080&q=85&fm=webp" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h5 class="card-title">Albanien</h5>
+                  <p class="card-text">Albanien är ett prisvärt resmål för solsemester tack vare sina låga priser på mat, boende och aktiviteter jämfört med andra medelhavsländer. Landet erbjuder vackra stränder med kristallklart vatten, särskilt längs den albanska rivieran, charmiga kuststäder som Saranda och Ksamil, samt en gästvänlig atmosfär – allt till en bråkdel av kostnaden i till exempel Grekland eller Italien. </p>
+                  <a href="#" class="btn btn-primary">Boka nu!</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/28821755/pexels-photo-28821755.jpeg?auto=compress&cs=tinysrgb&w=1200" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h5 class="card-title">Roquetas de Mar</h5>
+                  <p class="card-text">Roquetas de Mar är ett prisvärt alternativ för solsemester med sina långa sandstränder, lugna atmosfär och låga priser på hotell, mat och aktiviteter. Orten, som ligger vid Spaniens soliga sydkust, erbjuder både modern bekvämlighet och genuin lokal charm, vilket gör den till ett perfekt val för en avkopplande och budgetvänlig semester.</p>
+                  <a href="#" class="btn btn-primary">Boka nu !</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://th.bing.com/th/id/OIP.N-P_BoHEYkzt6bZq10rizQHaE7?rs=1&pid=ImgDetMain" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h5 class="card-title">Tijuana mexico </h5>
+                  <p class="card-text">Tijuana är ett prisvärt resmål som kombinerar sol, kultur och livfullt stadsliv till låga priser. Här kan du njuta av vackra stränder, autentisk mexikansk mat och ett pulserande nöjesliv, samtidigt som boende och aktiviteter är betydligt billigare än i många andra turistorter. Perfekt för den som söker en unik och prisvärd semesterupplevelse.</p>
+                  <a href="#" class="btn btn-primary">Boka nu!</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+ 
+<main>
+      <h4 id="Rekomenderat">Vi rekomenderar</h4>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/3648269/pexels-photo-3648269.jpeg?auto=compress&cs=tinysrgb&w=1200" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h5 class="card-title">Rio de Janeiro</h5>
+                  <p class="card-text">Vi rekommenderar att resa till Rio de Janeiro för solsemester tack vare stadens fantastiska stränder som Copacabana och Ipanema, det tropiska klimatet med solsäkra dagar året runt och den unika kombinationen av livfull kultur, vacker natur och pulserande stadsliv. Rio bjuder på en oförglömlig semesterupplevelse där sol och äventyr möts på bästa sätt. </p>
+                  <a href="#" class="btn btn-primary">Boka nu!</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/1172524/pexels-photo-1172524.jpeg?auto=compress&cs=tinysrgb&w=1200">
+                <div class="card-body">
+                  <h5 class="card-title">Franska Polynesien</h5>
+                  <p class="card-text">Vi rekommenderar att resa till Franska Polynesien för solsemester tack vare dess paradisstränder med kristallklart vatten, tropiska klimat och fantastiska övärld. Här kombineras avkoppling, lyx och äventyr i en unik miljö med vänlig lokal kultur – perfekt för en drömsemester under solen.</p>
+                  <a href="#" class="btn btn-primary">Boka nu !</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/2416888/pexels-photo-2416888.jpeg?auto=compress&cs=tinysrgb&w=1200" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h5 class="card-title">El Nido i Palawan </h5>
+                  <p class="card-text">Vi rekommenderar att resa till El Nido i Palawan för solsemester tack vare dess spektakulära vita stränder, turkosa laguner och dramatiska kalkstensklippor. Med sitt tropiska klimat, kristallklara vatten och orörda natur är El Nido en perfekt plats för både avkoppling och äventyr i ett äkta paradis.</p>
+                  <a href="#" class="btn btn-primary">Boka nu!</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="fixed-top">
+        <a href="index.html">
+        <i class="bi bi-house-fill text-black">Hem</i>
+      </a>
+      </div>
+      <div class="fixed-bottom">
+        <a href="#start">
+        <i class="bi bi-arrow-up ">Start</i>
+    </a>
+    </main>
+    <div style="height: 20px;"></div>
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="containter text-center text-md-left">
+      <div class="row text-center text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold text-warning">SmartTrip UF</h5>
+     <p> Vi är tre driftiga och målmedvetna gymnasieelever. Anledningen till att vi valde att starta detta företag var för att vi själva älskar att resa och ville göra det enklare för andra ungdomar som oss att komma ut och se världen.</p>
+      </div>
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+     <h6 class="text-uppercase mb-4 font-weight-bold text-warning">products </h5>
+     <p>
+      <a href="tropiskaplatser.html" class="text-white" style="text-decoration: none">Tropiska platser </a>
+     </p>
+     <p>
+      <a href="resemal.html" class="text-white" style="text-decoration: none">Upplevelser </a>
+     </p>
+     <p>
+      <a href="skidsemester.html" class="text-white" style="text-decoration: none">Skidsemester </a>
+     </p>
+    </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6t class="text-uppercase mb-4 font-weight-bold text-warning"> contact us </h5>
+          <p>
+            <i class="bi bi-house">Stenungsund,Hogia,våning 3</i>
+            </p>
+            <p>
+            <i class="bi bi-envelope">jonatan.bringevik@gmail.com</i>
+          </p>
+            <p>
+              <i class="bi bi-telephone">+46 0732611765</i>
+             </p>
+          <hr class="mb-4">
+          <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+        <p>&copy; 2025 SmartTrip UF All rights reserved.  
+       </p>
+       </div>
+         
+        </footer>
+       
+   
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
