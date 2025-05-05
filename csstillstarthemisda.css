@@ -1,0 +1,19 @@
+@font-face {
+    font-family: oxanium;
+    src: url(https://www.fontsquirrel.com/fonts/oxanium);
+  }
+  body{
+    font-family: oxanium;
+  }
+
+main{
+    padding: 2.5em;
+  }
+  header{ 
+    padding:0.5em;
+  }
+  .logo{ 
+    height: 6em; width: 6em;
+  }
+  footer{
+    padding-left: 2em;}
