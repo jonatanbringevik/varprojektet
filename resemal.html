@@ -1,107 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="oxanium/Oxanium-Regular.ttf" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="bootstrapny.css" rel="stylesheet">
-    <link href="csstillstarthemisda.css" rel="stylesheet">  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <meta name="description" content="En sida för att hitta och boka din drömresa">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="oxanium/Oxanium-Regular.ttf" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="bootstrapny.css">
+        <link rel="stylesheet" href="csstillresemal.css">
 </head>
-
-<body>
-    <div> 
-      <img class="logo img-fluid rounded mx-auto d-block" src="bild.png" alt="loggan">
-    </div>
-
+<body> 
+<h1 id="start">Städer</h1>
     <header>
-      <div class="mx-auto text-center" style="width: 300px;">
-    
-      <h1 class="mb-2">SmartTrip UF 
-         </h1>
-        <p>Choose your perfect destination</p>
+        <div class="box">
+            <img src="https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Bild på new york">
+            <div class="inner-box">
+                <a href="#popular" id="knapp">
+                    <button type="button" class="btn btn-dark">Populärt</button>
+                </a>
+                </div>
+            <div class="text-below font-weight-bold text-white">Resor du kommer berätta om i en livstid</div>
+            </div>
+           
+        <div class="box">
+            <img src="https://images.pexels.com/photos/2563679/pexels-photo-2563679.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på köpenhamn">
+            <div class="inner-box">
+                 <a href="#Billigt">
+                 <button type="button" class="btn btn-dark">Billigt</button>
+                 </a>
+            </div>
+            <div class="text-below font-weight-bold text-white"> Magiska resor för en billig peng</div>
+        </div>
+        <div class="box">
+            <img src="https://images.pexels.com/photos/2351425/pexels-photo-2351425.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på wien">
+            <div class="inner-box"><nav>
+               <a href="#Virekomenderar"> 
+                <button type="button" class="btn btn-dark">Vi rekommenderar</button>
+            </a>
+              </nav>
+            </div>
+        <div class="text-below font-weight-bold text-white">Våra personliga rekomendationer</div>
         </div>
     </header>
 
-    <main>
-        <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <div class="card h-100" style="width: 20rem; height: 25rem;">
-                    <img src="pexels-photo-2433353.jpg" alt="man på skidor" class="card-img-top" style=width:20rem;height:15em;>
-                    <div class="card-body">
-                      <h2 class="card-title">Skidsemester</h2>
-                      <p class="card-text">Upplev underbara skidåk på magiska platser omkring i europa </p>
-                      <a href="skidsemester.html" class="btn btn-primary">Välj ditt resemål</a>
-                    </div>
-                  </div>
+ 
+ <main>
+    <h2 id="popular">  Populärt </h2>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på tokyo" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">Tokyo</h3>
+                  <p class="card-text">Tokyo är en stad där tradition möter framtid. Här kan du uppleva allt från gamla tempel och blomstrande körsbärsträd till futuristiska skyskrapor och högteknologiska upplevelser. Staden bjuder på fantastisk mat, unik shopping, livliga kvarter som Shibuya och Shinjuku samt lugna oaser som trädgårdarna i Ueno. Oavsett om du gillar kultur, mat, teknik eller bara vill se något helt annorlunda. Tokyo är ett äventyr du sent kommer glömma. </p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
               </div>
-              <div class="col-sm">
-                <div class="card h-100" style="width: 20rem; height: 25rem;">
-                    <img src="kopenhamn.jpg" alt=" bild på london" class="card-img-top" style=width:20rem;height:15em;>
-                    <div class="card-body">
-                      <h2 class="card-title">Städer</h2>
-                      <p class="card-text"> Upplev storslagna reser som du kan berätta om för en livstid</p>
-                      <a href="resemal.html" class="btn btn-primary">Välj ditt resemål</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="col-sm">
-                <div class="card h-100" style="width: 20rem; height: 25rem;">
-                    <img src="karibien.jpg" alt="bild på tropisk plats" class="card-img-top" style=width:20rem;height:15em;>
-                    <div class="card-body">
-                      <h2 class="card-title">Tropsika platser </h2>
-                      <p class="card-text">Njut i solen med en pina colada i handen eller festa ordentligt i värmen </p>
-                      <a href="tropiskt.html" class="btn btn-primary">Välj ditt resemål</a>
-                    </div>
-                  </div>
-              </div>
-            </div>
           </div>
-    </main>
-    <footer class="bg-dark text-white pt-5 pb-4">
-    <div class="containter text-center text-md-left">
-    <div class="row text-center text-md-left">
-    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-      <h2 class="text-uppercase mb-4 font-weight-bold text-warning">SmartTrip UF</h2>
-   <p> Vi är tre driftiga och målmedvetna gymnasieelever. Anledningen till att vi valde att starta detta företag var för att vi själva älskar att resa och ville göra det enklare för andra ungdomar som oss att komma ut och se världen.</p>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på london" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">London</h3>
+                  <p class="card-text">London är en stad som blandar historisk charm med modern storstadspuls. Här kan du utforska kungliga slott, vandra längs Themsen, shoppa på Oxford Street eller ta en afternoon tea på ett klassiskt café. Med världskända sevärdheter som Big Ben, Tower Bridge och British Museum finns det alltid något att upptäcka. London är perfekt för dig som vill uppleva kultur, historia och storstadsliv på samma gång. </p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på new york" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">New York</h3>
+                  <p class="card-text">New York är staden som aldrig sover en plats full av energi, mångfald och ikoniska upplevelser. Här kan du promenera i Central Park, beundra utsikten från Empire State Building, shoppa i SoHo eller se en Broadway-show. Med ett enormt utbud av mat från hela världen, konst i världsklass och en unik puls, är New York ett resmål som passar alla. Det är en stad som får dig att känna att allt är möjligt.</p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <h4 id="Billigt">Billigt</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/416024/pexels-photo-416024.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på köpenhamn" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">Köpenhamn</h3>
+                  <p class="card-text">Köpenhamn är en charmig stad full av färgglada hus, mysiga caféer och avslappnad stämning. Här kan du cykla längs vattnet, njuta av underbar billig öl, upptäcka designbutiker och utforska områden som Nyhavn och Christianshavn. Det är en perfekt stad för en weekend med god mat och rik kultur</p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/775482/pexels-photo-775482.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på bukarest" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">Bukarest</h3>
+                  <p class="card-text">Bukarest är en spännande stad med en unik blandning av historisk charm och modern energi. Här hittar du vacker arkitektur, prisvärda restauranger, livligt nattliv och intressanta museer. Staden är perfekt för resenärer som söker kultur, nöjen och överkomliga priser. </p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/31758859/pexels-photo-31758859/free-photo-of-helsingfors-hamn-med-raddningsbat-och-uspenski-domkyrka.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på helsingfors" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">Helsingfors</h3>
+                  <p class="card-text">Helsingfors är ett prisvärt och trevligt resmål med bra kollektivtrafik, billiga luncher och många gratis sevärdheter. Staden erbjuder vacker natur, intressant kultur och en vänlig atmosfär, perfekt för resenärer som vill uppleva Nordens charm utan att spendera mycket.</p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    <h5 id="Virekomenderar">Vi rekomnederar</h5>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/589989/pexels-photo-589989.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på prag" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">Prag</h3>
+                  <p class="card-text">Prag är ett fantastiskt resmål tack vare sin vackra arkitektur, rika historia och prisvärda utbud. Staden erbjuder charmiga gator, imponerande slott och mysiga kaféer. Dessutom är maten billig, ölen berömd och atmosfären både livlig och romantisk.
+                  </p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/2106452/pexels-photo-2106452.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på frankfurt" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">Frankfurt</h3>
+                  <p class="card-text">Frankfurt kombinerar storstadsliv med låga priser jämfört med andra tyska metropoler. Här hittar du prisvärd och ljuvlig mat, bra kollektivtrafik och många gratis sevärdheter som parker och museer. En perfekt stad för dig som vill resa smart utan att tumma på upplevelserna. </p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card h-100" style="width: 20rem; height: 25rem;">
+                <img src="https://images.pexels.com/photos/2351425/pexels-photo-2351425.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="bild på  wien" class="card-img-top" style=width:20rem;height:15em;>
+                <div class="card-body">
+                  <h3 class="card-title">Wien,</h3>
+                  <p class="card-text">Wien erbjuder elegans och kultur till överraskande rimliga priser, särskilt utanför högsäsong. Du kan njuta av klassisk musik, pampiga byggnader och mysiga kaféer utan att spräcka budgeten. Med bra kollektivtrafik och prisvärd mat är det ett perfekt resmål för den som vill ha mycket för pengarna.</p>
+                  <a href="bokanu.html" class="btn btn-dark">Boka nu</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="fixed-bottom">
+        <a href="#start">
+        <i class="bi bi-arrow-up ">Start</i> 
+    </a>
+    <div class="fixed-top">
+      <a href="index.html">
+      <i class="bi bi-house-fill text-black">Hem</i>
+    </a>
     </div>
-    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-   <h2 class="text-uppercase mb-4 font-weight-bold text-warning">products </h2>
-   <p>
-    <a href="#" class="text-white" style="text-decoration: none">Tropiska platser </a>
-   </p> 
-   <p>
-    <a href="resemal.html" class="text-white" style="text-decoration: none">Upplevelser </a>
-   </p> 
-   <p>
-    <a href="#" class="text-white" style="text-decoration: none">Skidsemester </a>
-   </p> 
-  </div>
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h2 class="text-uppercase mb-4 font-weight-bold text-warning"> contact us </h2> 
-        <p>
-          <i class="bi bi-house">Stenungsund,Hogia,våning 3</i>
-          </p>
-          <p>
-          <i class="bi bi-envelope">jonatan.bringevik@gmail.com</i>
-        </p>
-          <p>
-            <i class="bi bi-telephone">+46 0732611765</i>
-           </p>
-        <hr class="mb-4">
-        <div class="row align-items-center">
-      <div class="col-md-7 col-lg-8">
-      <p>&copy; 2025 SmartTrip UF All rights reserved.  
-     </p>
-     </div>
-     </div> 
-     </div>
-     </div>
-     </div>
-     </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</div>
+</main>
+      <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="containter text-center text-md-left">
+        <div class="row text-center text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold text-warning">SmartTrip UF</h6>
+       <p> Vi är tre driftiga och målmedvetna gymnasieelever. Anledningen till att vi valde att starta detta företag var för att vi själva älskar att resa och ville göra det enklare för andra ungdomar som oss att komma ut och se världen.</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+       <h6 class="text-uppercase mb-4 font-weight-bold text-warning">products </h6>
+       <p>
+        <a href="tropiskaplatser.html" class="text-white" style="text-decoration: none">Tropiska platser </a>
+       </p> 
+       <p>
+        <a href="resemal.html" class="text-white" style="text-decoration: none">Städer</a>
+       </p> 
+       <p>
+        <a href="skidsemester.html" class="text-white" style="text-decoration: none">Skidsemester </a>
+       </p> 
+      </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold text-warning"> contact us </h6> 
+            <p>
+              <i class="bi bi-house">Stenungsund,Hogia,våning 3</i>
+              </p>
+              <p>
+              <i class="bi bi-envelope">jonatan.bringevik@gmail.com</i>
+            </p>
+              <p>
+                <i class="bi bi-telephone">+46 0732611765</i>
+               </p>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+          <p>&copy; 2025 SmartTrip UF All rights reserved.  
+         </p>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+         </footer> 
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 </body>
 </html>
