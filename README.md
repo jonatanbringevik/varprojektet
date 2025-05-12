@@ -22,3 +22,5 @@ vecka 15
 Vi har skrivit mycket kod vi har fixat klart så vi är nära mållinjen nu. Jag har börjat på stads hemsidan och tänkte göra klart det hemma så det känns bra nu.   
 vecka 19  
 Jag var sjuk idag men jag snacka med min grupp genom facetime. Jag laddade upp hemsidan på github och fixade min kod igenom hmtl validator  
+vecka 20  
+Idag gjorde jag tester jag satt ett bra tag och försökte fixa med våra fonter då dom strulade något fruktansvärt satt sen och ändra storleken på alla bilder och kom upp i 99% prestanda på dator och 83 på mobil sedan bra bit över 90 på allt annat så ändå rätt posetivt  
