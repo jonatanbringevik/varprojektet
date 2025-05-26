@@ -1,6 +1,6 @@
 @font-face {
     font-family: oxanium;
-    src: url(oxanium/Oxanium-Medium.ttf);
+    src: url(oxanium/Oxanium-Regular.ttf);
   }
   body{
     font-family: oxanium;
@@ -15,38 +15,28 @@ header {
     display: flex;
     width: 100%;
     height: 100%;
-    text-shadow: 2px black;
+    text-shadow: 3px black;
 }
+
 .box {
     flex: 1;
-    background-color: #3498db;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
-    position: relative;
-    overflow: hidden;
+    border: 0.001em solid black;
+    background-color: gray;
 }
 .box img {
     width: 100%;
-    height: 100%;
+    height: 30em;
     object-fit: cover;
 }
 .text-below {
-    font-size: 22px;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 20px;
-    margin-bottom: 50px;
+  padding:1.2em;
 }
- 
-.container{
-  margin-bottom: 3em;
-}
- 
-button{
-  height: 3em;
+.btn btn-primary{
+  padding: 1em;
 }
  
 h1 {
@@ -60,43 +50,46 @@ h1 {
 }
  
 h2 {
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/08/06/snow-1868299_1280.jpg');
-  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1200"); 
+  background-size: cover; /* or 'contain' */
   background-position: center;
-  color: rgb(0, 0, 0);
-  padding: 50px;
-  text-align: center;
-  margin-top: px;        
-  font-size: 40px;
+  color: white; /* Change text color to stand out */
+  padding: 1em; /* Add space around the text */
+  text-align: center;/* Centrerar texten horisontellt */
+  margin-top: 0em;
+  font-size: 2em;
 }
- 
 h4 {
-  background-image: url('https://cdn.pixabay.com/photo/2018/01/21/19/55/winter-3097418_1280.jpg');
-  background-size: cover;
-  background-position: center;
-  color: rgb(0, 0, 0);
-  padding: 50px;
-  text-align: center;
-  margin-top: 90px;      
-  font-size: 40px;
+    background-image: url("https://images.pexels.com/photos/2563679/pexels-photo-2563679.jpeg?auto=compress&cs=tinysrgb&w=1200"); 
+    background-size: cover; /* or 'contain' */
+    background-position: center;
+    color: white; /* Change text color to stand out */
+    padding: 1em; /* Add space around the text */
+    text-align: center;/* Centrerar texten horisontellt */
+    font-size: 2em;
+  }
+.container{
+padding:3em;
 }
- 
-h5{
-  background-image: url('https://cdn.pixabay.com/photo/2023/09/24/07/00/mountains-8272227_1280.jpg');
-  background-size: cover;
-  background-position: center;
-  color: rgb(0, 0, 0);
-  padding: 50px;
-  text-align: center;
-  margin-top: 90px;
-  font-size: 40px;
+h5 {
+    background-image: url("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=1200"); 
+    background-size: cover; /* or 'contain' */
+    background-position: center;
+    color: white; /* Change text color to stand out */
+    padding: 1em; /* Add space around the text */
+    text-align: center;/* Centrerar texten horisontellt */    
+    font-size: 2em;
 }
- 
 .bi-arrow-up{
-  font-size:40px;
-  color:black
+    font-size:1.5em;
+    color:black
 }
- 
-.bi-house-fill {
-font-size: 40px;
+.bi-house-fill{
+  font-size:1.5em;
 }
+
+
+
+
+
+
