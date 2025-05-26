@@ -49,15 +49,15 @@ button{
 }
  
 h1 {
-  background-image: url("https://cdn.pixabay.com/photo/2022/02/07/22/27/winter-7000429_1280.jpg%27"); /* Replace with your image file path */
-  background-size: cover; 
+  background-image: url('https://cdn.pixabay.com/photo/2022/02/07/22/27/winter-7000429_1280.jpg');
+  background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);
-  padding: 1em;
+  padding: 50px;
   text-align: center;
-  margin:0em;
+  margin: 0px;
 }
- 
+
 h2 {
   background-image: url('https://cdn.pixabay.com/photo/2016/11/29/08/06/snow-1868299_1280.jpg');
   background-size: cover;
