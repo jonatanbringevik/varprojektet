@@ -50,13 +50,13 @@ button{
 }
  
 h1 {
-  background-image: url('https://cdn.pixabay.com/photo/2022/02/07/22/27/winter-7000429_1280.jpg');
-  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/421927/pexels-photo-421927.jpeg?auto=compress&cs=tinysrgb&w=1200"); /* Replace with your image file path */
+  background-size: cover; 
   background-position: center;
   color: rgb(255, 255, 255);
-  padding: 50px;
+  padding: 1em;
   text-align: center;
-  margin: 0px;
+  margin:0em;
 }
  
 h2 {
