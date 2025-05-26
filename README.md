@@ -24,3 +24,5 @@ vecka 19
 Jag var sjuk idag men jag snacka med min grupp genom facetime. Jag laddade upp hemsidan på github och fixade min kod igenom hmtl validator  
 vecka 20  
 Idag gjorde jag tester jag satt ett bra tag och försökte fixa med våra fonter då dom strulade något fruktansvärt satt sen och ändra storleken på alla bilder och kom upp i 99% prestanda på dator och 83 på mobil sedan bra bit över 90 på allt annat så ändå rätt posetivt  
+vecka 22  
+Vi gjorde än del sista minuten ändringar och fixa till våran kod enligt w3cs standarder samt optimerat den så mycket vi kunde förutom att sitta och ändra format och storlek på varje bild för det hade tagit för lång tid samt jag märkte när jag gjorde det på starthemsidan att det inte gjorde så stor skillnad i prestandan jag fick så att jag har över 90% på datorn på alla mina sidor förutom tillgängligheten då det är en text som dom inte tykcer är tillräckligt hög kontrast till bakgrunden men jag håller inte med och kan inte komma på någon färg som skulle kunna göra större kontrast och ändå hålla sidan snygg 
